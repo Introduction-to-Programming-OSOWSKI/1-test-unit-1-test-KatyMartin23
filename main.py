@@ -2,7 +2,7 @@ def name():
     return "Katy"
 print (name())
 def favorite(favCol, favNum):
-    return "Your favorite number is " + favCol + " and your favorite number is " + favNum
+    return "Your favorite color is " + favCol + " and your favorite number is " + str(favNum)
 print (favorite("blue", 4))
 def bigAdd(x, y, z, a, b):
     return x + y + z + a + b
